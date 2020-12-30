@@ -1,0 +1,411 @@
+@font-face {
+/*    font-family: 'Avenir';
+    src: url('/fonts/AvenirLTStd-Light.otf') format("opentype");*/
+}
+
+body {
+    font-family: 'Segoe UI', Verdana !important;
+    font-size: 16px !important;
+    color: #3D3935 !important;
+}
+
+.cabeceranav{
+	font-size: 24px !important;	
+	position:relative;
+	float:left !important;
+	color: #3c87c8 !important;
+
+}
+
+.anavcabecera{
+	color: #3c87c8 !important;	
+}
+
+.licabecera
+{
+	margin-left: 32px !important;
+}
+.licabecera a:hover
+{
+    border-bottom: 2px solid;
+}
+.navbar {
+    margin-bottom: 24px !important;
+}
+.imgcabecera {
+    padding: 0px 0px !important;
+    margin-right: 0px !important;
+}
+.card{
+	background-color:#C6DEE7 !important;
+	width: 70%;
+	margin-left:15%;
+}
+
+.cardTituloPantallas {
+    background-color: #3c87c8;
+    padding: 8px;
+    margin-top: 8px;
+    color: white;
+    font-size: 18px !important;
+    text-align: left;
+}
+
+.capaOpacidadCursos{
+	opacity: 0.2;
+	-moz-opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+
+.cardWebinar {
+    /*background-color: #F2F2F2;*/
+    width: 95%;
+    /*height: 230px;*/
+    font-size: 13px !important;
+}
+
+
+.cardWebinarTitulo {
+    background-color: #3c87c8;
+    padding: 8px;
+    color: white;
+    font-size: 14px !important;
+    text-align: center;
+}
+
+.cursosMeses {
+    background-color: #3c87c8;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px !important;
+    width: 100%;
+    text-align: center;
+}
+
+.cursosImagenModulo {
+    text-align: center;
+    padding-top: 5px;
+    width: 60px;
+}
+
+.perfilNombreComercial{
+	font-size: 18px !important;
+}
+
+.cardCurso {
+    /*background-color: #F2F2F2 !important;    */
+    /*height: 240px;*/
+    font-size: 13px !important;
+    margin-bottom: 20px;
+}
+
+.cursoCompleto {
+    position: absolute;
+    top: -10px;
+    left: 150px;
+    border: none;
+    width: 150px !important;
+    max-width: 150px !important;
+}
+
+.cardCursoTitulo {
+    background-color: #A4A4A4;
+    padding: 2px;
+    color: white;
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.cardAgente {
+    background-color: #F2F2F2;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 13px !important;
+}
+
+.tablaCursos{
+	width: 90% !important;
+}
+.logo{
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+
+
+.titulo{
+	font-size:18px !important;
+	padding-top:10px;
+    font-weight: 500;
+}
+
+.titulomin{
+	font-size:20px !important;
+	padding-top:10px;
+}
+
+.apie{
+	color:white;
+}
+
+.margenpie{
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+
+.cuerpo{	
+	margin-top: 80px;
+}
+
+@media (min-width:768px) {
+    .cuerpo {
+        margin-top: 120px;
+    }
+}
+
+@media (min-width:520px) {
+    .cuerpo {
+        margin-top: 80px;
+    }
+}
+
+.inputs{
+	text-align:right;
+	padding-bottom:3px;
+}
+
+.contrasena{
+	background-color: #ff9999 !important;
+	margin-left:0% !important;
+}
+
+.loginMensaje{
+	background-color: #ff9999 !important;
+	margin-left:0% !important;
+	width: 400px;
+}
+
+.loginwebinar{
+	background-color: 93faaf !important;
+	margin-left:0% !important;
+	width: 400px;
+}
+.metidos{
+	padding-left:30px;
+}
+
+.textogrande{
+	font-size: 36px !important;
+	font-weight: bold;
+}
+
+.color{
+	background-color:#e6e6fa;
+	font-size: 25px;
+	padding:10px 10px 7px 10px;
+	color:inherit;
+}
+
+.textorevista{
+	font-size: 20px;
+	color: #4a717f;
+	padding-top:40px;
+}
+
+.coustumizeTable{
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e6e6e6;
+    font-size:12px;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+table.dataTable td, table.dataTable th {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        text-transform: uppercase;
+    }
+    table.dataTable td.dataTables_empty, table.dataTable th.dataTables_empty {
+            text-align: center;
+    }
+     table.dataTable.nowrap th, table.dataTable.nowrap td {
+        white-space: nowrap;
+  }
+
+div.table-responsive > div.dataTables_wrapper > div.row {
+    margin: 0;
+}
+
+    div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:first-child {
+        padding-left: 0;
+    }
+
+    div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child {
+        padding-right: 0;
+    }
+
+  /*.thead-violet{
+     color: white;
+     background-color: red;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size:12px;
+ }*/
+ /* tr:hover  td{ 
+    background-color: #fff;
+    opacity: 12;
+    color:black;
+    font-size:12px;
+    font-weight:100;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}*/
+
+flechas{
+	font-family: "" !important;
+}
+
+.fondohome{
+	background: "~/media/ohepecit/homebackground.png"
+}
+
+
+<!--CABECERA-->
+.td-header-main-menu{
+	padding-right: 0px !important;
+}
+.ancho{
+	width:100%;
+	padding-right: 0px !important;
+}
+
+a.sf-with-ul{
+	padding-right: 10px !important;
+	color: #3c87c8 !important;
+}
+
+<!--FINCABERA-->
+
+
+
+.TxtTitleFormacion{
+	font-size: 16px;
+	margin-top: 15px;
+	color: rgba(0,0,0,0.7);
+}
+
+.margen{
+	padding-left:20px;
+}
+
+.TextoEntrada{
+	line-height:18px;
+	font-size:16px;
+	color: #4A717F;
+	font: inherit;
+}
+
+.Linea{
+	color: #4A717F;
+}
+
+.colorCentrado{
+ 	background-color:#D6E3E5;
+	padding: 15px 10px;
+}
+
+.cabecera{
+	position: fixed; 
+	z-index:1; 
+	background-color: #FFFFFF;
+}
+
+
+
+.minititulo{
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.av{
+	padding-left: 5px;
+	padding-top:10px;
+	font-weight: 600;	
+	color:#FFFFFF;
+}
+
+.centrar{
+	padding-left: 80px;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+.listali{
+	font-size:12px !important;
+	color: rgba(255,255,255,0.8) !important;	 
+}
+
+
+
+.cajas{
+	background-color: #819CA6; 
+	margin-left:16px; 
+	margin-right:16px; 
+	width:208px;
+	color: #FFF;
+}
+
+.num{
+	font-size:36px;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+.text{
+	font-size: 14px;
+	width:80%;
+	margin-left:5px;
+	margin-top: 20px;
+	float:right;
+}
+
+.fila1{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+/**umb_name:TituloPaginas*/
+.TituloPaginas {
+    font-size: 2.5vw;
+    font-weight: bold;
+    
+    color: #4CA7D4;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+/**umb_name:LineaCabecera*/
+.LineaCabecera{
+    border-color:#4CA7DA !important;
+    border: 1px solid;
+}
+
+/**umb_name:SubtituloPaginas*/
+.SubtituloPaginas {
+    font-size: 2.0vw;
+    font-family: Avenir;
+    color: #0081C1;
+}
+
+
+

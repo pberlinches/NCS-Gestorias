@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "NCS - Gestorías";
+}
+
+
+
+<html>
+<head>
+
+    <!--CABECERA-->
+    <!--CSS-->
+    <link href="~/css/Cabecera/front.css" rel="stylesheet" id="wpdm-front-css" type="text/css" media="all">
+    <link href="~/css/Cabecera/setting.css" rel="stylesheet" id="rs-plugin-settings-css" type="text/css" media="all">
+    <link href="~/css/Cabecera/js_composer.min.css" rel="stylesheet" id="js_composer_front-css" type="text/css" media="all">
+    <link href="~/css/Cabecera/style.css" rel="stylesheet" id="td-theme-css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!--FAQS-->
+    <script src="~/scripts/Cabecera/jquery.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+
+    <script src="~/scripts/bootstrap/bootstrap.js"></script>
+
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/Cabecera/bootstrap.min.css">
+    <link href="~/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="~/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="~/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="~/css/bootstrap-reboot.min.css" rel="stylesheet" />
+    <link href="~/css/GESTORIA.css" rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.19/css/dataTables.semanticui.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js "></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.semanticui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+    <script type="text/javascript" src="~/scripts/IniDataTable.js"></script>
+    <script src="~/scripts/Cabecera/bootstrap-hover-dropdown.min.js"></script>
+
+
+    
+
+</head>
+<body style="background-color:#F2F2F2">
+    @Html.Partial("cabecera")
+    <div class="container" style="background-color:white">
+        @RenderBody()
+        <p>&nbsp;</p>
+    </div>
+
+
+</body>
+
+
+</html>
+
+
+
